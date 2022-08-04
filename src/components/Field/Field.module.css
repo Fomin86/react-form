@@ -1,0 +1,52 @@
+.Fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* style label */
+
+/* .Label {
+  color: #959595;
+  font-size: 16px;
+  line-height: calc(18 / 15);
+  padding: 19px 16px;
+  position: absolute;
+  transform-origin: 0 0;
+  transition: transform 0.4s ease;
+} */
+
+.Input {
+  font-family: var(--font-base-family);
+  font-size: 16px;
+  font-weight: 400;
+  color: #060c17;
+  border: 1px solid #b1b4c5;
+  border-radius: 3px;
+  padding-left: 16px;
+  width: 100%;
+  height: 56px;
+  outline: none;
+  transition: border 0.4s ease;
+  
+}
+
+.Input:focus-visible {
+  border: 1px solid var(--primary-color);
+  outline-offset: -1px;
+}
+
+/* translateY placeholder */
+
+/* .LabelAnimation {
+  color: var(--primary-color);
+  font-size: 12px;
+  font-weight: 500;
+  transform: translateY(-10px);
+} */
+
+.Error {
+  border-color: var(--error-color);
+}

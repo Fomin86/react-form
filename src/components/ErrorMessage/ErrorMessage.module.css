@@ -1,0 +1,9 @@
+.Error {
+  font-weight: 500;
+  font-size: 10px;
+  color: #C92E20;
+  width: 100%;
+  display: flex;
+  justify-self: flex-start;
+  margin-top: 5px;
+}
